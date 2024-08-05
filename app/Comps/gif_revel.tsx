@@ -34,8 +34,8 @@ const ImgReveal: React.FC<ImgRevealProps> = ({ src, children }) => {
           className="absolute bottom-1/2 right-0"
           style={{
             transform: `translateX(${offset}px)`,
-            maxWidth: '200px', // Set maximum width to 100%
-            width: '150px', // Set width to 100% of the viewport width
+            maxWidth: '400px', // Set maximum width to 100%
+            width: '200px', // Set width to 100% of the viewport width
             height: 'auto', // Set height to auto to maintain aspect ratio
           }}
         />

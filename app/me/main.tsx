@@ -6,11 +6,11 @@ export default function Main() {
         <>
             <section className='flex items-center justify-center mt-24 flex-col'>
                 <ImgReveal src={allAb.src}>
-                    <span className='text-2xl md:text-4xl font-bold text-blue-500'>
+                    <span className='text-2xl md:text-4xl 2xl:text-6xl font-bold text-blue-500'>
                         About me
                     </span>
                 </ImgReveal>
-                <div className='max-w-[900px] mt-10 m-4 text-center text-lg'>
+                <div className='max-w-[900px] mt-10 m-4 text-center text-lg 2xl:text-2xl'>
                     <h1>
                         I'm a Sweden-based full-stack developer with a huge passion for coding and developing new technologies.
                         My journey into the world of software development began at an early age, and over the years, I have honed
@@ -31,7 +31,7 @@ export default function Main() {
             </section>
             <div className='flex items-center justify-center mt-24'>
                 <ImgReveal src={meme.src}>
-                    <span className='text-2xl font-bold md:text-4xl text-yellow-200'>My story</span>
+                    <span className='text-2xl font-bold md:text-4xl 2xl:text-6xl text-yellow-200'>My story</span>
                 </ImgReveal>
             </div>
             <section className="relative min-h-screen flex flex-col justify-center  overflow-hidden">

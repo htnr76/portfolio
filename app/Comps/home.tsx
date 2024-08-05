@@ -83,9 +83,9 @@ export default function HomeContent() {
             <div ref={ref1 as any} className={`transition-opacity ease-in duration-300 ${isVisible1 ? "opacity-100" : "opacity-10"}`}>
                 <section className={`flex justify-center items-center mt-24 flex-col`}>
                     <ImgReveal src={erfarenhet.src}>
-                        <span className="text-[#FFD700] font-bold text-2xl sm:text-4xl md:font-bold">Experience</span>
+                        <span className="text-[#FFD700] font-bold text-2xl 2xl:text-6xl sm:text-4xl md:font-bold">Experience</span>
                     </ImgReveal>
-                    <h2 className="mt-10 max-w-[500px] m-4 sm:text-2xl md:font-semibold md:max-w-[800px]">
+                    <h2 className="mt-10 max-w-[500px] m-4 sm:text-2xl 2xl:text-3xl md:font-semibold md:max-w-[800px]">
                         Over 3 years of experience of coding for my self and 1 year coding for a tech company based in Sweden.
                         <Link href={'/me'} className='text-lime-500'>
                             Whant to know more about my story?
